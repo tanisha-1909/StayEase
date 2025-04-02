@@ -31,3 +31,6 @@ coverage/
 Thumbs.db
 
 package-lock.json
+
+info.txt
+
