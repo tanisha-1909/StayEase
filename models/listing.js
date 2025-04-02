@@ -15,7 +15,7 @@ const listingSchema= new mongoose.Schema({
             set: (v) => v === "" ? "https://unsplash.com/photos/coconut-palm-trees-in-hotel-lobby-_dS27XGgRyQ" : v
         }
     },
-    price:Number,
+    price:String,
     location:String,
     country: String
 });
