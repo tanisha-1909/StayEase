@@ -2,8 +2,8 @@ const sampleListings = [
   {
     title: "Cozy Cabin in the Woods",
     description: "Escape to this peaceful cabin surrounded by nature. Perfect for a relaxing getaway.",
-    price: "$120/night",
-    location: "Asheville, NC",
+    price: "120",
+    location: "AshevilleNC",
     country: "USA",
     image: {
       filename: "listingimage",
@@ -13,8 +13,8 @@ const sampleListings = [
   {
     title: "Luxury Beachfront Villa",
     description: "Enjoy breathtaking ocean views from this stunning villa with private beach access.",
-    price: "$350/night",
-    location: "Malibu, CA",
+    price: "350",
+    location: "MalibuCA",
     country: "USA",
     image: {
       filename: "listingimage",
@@ -24,8 +24,8 @@ const sampleListings = [
   {
     title: "Modern Downtown Loft",
     description: "Stay in the heart of the city in this stylish loft with all modern amenities.",
-    price: "$200/night",
-    location: "New York, NY",
+    price: "2000",
+    location: "NewYorkNY",
     country: "USA",
     image: {
       filename: "listingimage",
@@ -35,8 +35,8 @@ const sampleListings = [
   {
     title: "Rustic Mountain Retreat",
     description: "A beautiful retreat nestled in the mountains with a cozy fireplace and scenic views.",
-    price: "$150/night",
-    location: "Denver, CO",
+    price: "150",
+    location: "DenverCO",
     country: "USA",
     image: {
       filename: "listingimage",
@@ -46,8 +46,8 @@ const sampleListings = [
   {
     title: "Charming Countryside Cottage",
     description: "A quaint and charming cottage perfect for a peaceful countryside escape.",
-    price: "$100/night",
-    location: "Nashville, TN",
+    price: "2308",
+    location: "NashvilleTN",
     country: "USA",
     image: {
       filename: "listingimage",
@@ -57,8 +57,8 @@ const sampleListings = [
   {
     title: "Sunny Beach House",
     description: "A bright and airy beach house just steps from the ocean with a private deck.",
-    price: "$180/night",
-    location: "Miami, FL",
+    price: "1526",
+    location: "MiamiFL",
     country: "USA",
     image: {
       filename: "listingimage",
@@ -68,7 +68,7 @@ const sampleListings = [
   {
     title: "Secluded Jungle Bungalow",
     description: "A unique stay deep in the jungle, offering a one-of-a-kind nature experience.",
-    price: "$140/night",
+    price: "5678",
     location: "Bali",
     country: "Indonesia",
     image: {
@@ -79,7 +79,7 @@ const sampleListings = [
   {
     title: "Historic Paris Apartment",
     description: "A classic Parisian apartment with stunning views of the Eiffel Tower.",
-    price: "$250/night",
+    price: "10890",
     location: "Paris",
     country: "France",
     image: {
@@ -91,8 +91,8 @@ const sampleListings = [
 
     title: "Lakefront Cabin Retreat",
     description: "A peaceful retreat by the lake, perfect for fishing and nature lovers.",
-    price: "$130/night",
-    location: "Lake Tahoe, CA",
+    price: "7830",
+    location: "LakeTahoeCA",
     country: "USA",
     image: {
       filename: "listingimage",
@@ -102,7 +102,7 @@ const sampleListings = [
   {
     title: "Japanese Ryokan Experience",
     description: "Experience traditional Japanese hospitality in this authentic ryokan.",
-    price: "$220/night",
+    price: "21002",
     location: "Kyoto",
     country: "Japan",
     image: {
@@ -113,8 +113,8 @@ const sampleListings = [
   {
     title: "Ski-In Ski-Out Chalet",
     description: "A perfect winter retreat right on the slopes for skiing enthusiasts.",
-    price: "$300/night",
-    location: "Aspen, CO",
+    price: "2291",
+    location: "AspenCO",
     country: "USA",
     image: {
       filename: "listingimage",
@@ -124,7 +124,7 @@ const sampleListings = [
   {
     title: "Tropical Island Villa",
     description: "A luxurious villa on a remote island with private beaches and lush surroundings.",
-    price: "$500/night",
+    price: "19202",
     location: "Maldives",
     country: "Maldives",
     image: {
@@ -135,7 +135,7 @@ const sampleListings = [
   {
     title: "Classic London Flat",
     description: "A chic apartment in central London, close to major attractions and transport.",
-    price: "$270/night",
+    price: "29992",
     location: "London",
     country: "UK",
     image: {
@@ -146,7 +146,7 @@ const sampleListings = [
   {
     title: "Safari Tent Retreat",
     description: "Experience wildlife up close in this luxury safari tent with all modern comforts.",
-    price: "$220/night",
+    price: "9999",
     location: "Serengeti",
     country: "Tanzania",
     image: {
@@ -157,7 +157,7 @@ const sampleListings = [
   {
     title: "Greek Island Escape",
     description: "A white-washed house with blue domes overlooking the Aegean Sea.",
-    price: "$280/night",
+    price: "89002",
     location: "Santorini",
     country: "Greece",
     image: {
@@ -168,7 +168,7 @@ const sampleListings = [
   {
     title: "Forest Treehouse",
     description: "Stay in a treehouse high above the forest for a magical nature retreat.",
-    price: "$160/night",
+    price: "2911",
     location: "British Columbia",
     country: "Canada",
     image: {
@@ -179,7 +179,7 @@ const sampleListings = [
   {
     title: "Floating Houseboat",
     description: "A peaceful stay in a floating houseboat with stunning water views.",
-    price: "$210/night",
+    price: "8291",
     location: "Amsterdam",
     country: "Netherlands",
     image: {
@@ -190,7 +190,7 @@ const sampleListings = [
   {
     title: "Alpine Ski Lodge",
     description: "A cozy ski lodge in the Alps with breathtaking mountain views.",
-    price: "$320/night",
+    price: "1111",
     location: "Zermatt",
     country: "Switzerland",
     image: {
@@ -201,7 +201,7 @@ const sampleListings = [
   {
     title: "Royal Heritage Hotel",
     description: "Stay in a former palace with luxurious rooms and a rich history.",
-    price: "$600/night",
+    price: "6666",
     location: "Jaipur",
     country: "India",
     image: {
@@ -213,7 +213,7 @@ const sampleListings = [
 
     title: "Igloo Adventure Stay",
     description: "A cozy glass igloo offering incredible views of the Northern Lights.",
-    price: "$400/night",
+    price: "2920",
     location: "Lapland",
     country: "Finland",
     image: {
