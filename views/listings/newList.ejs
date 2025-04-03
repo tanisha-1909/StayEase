@@ -1,26 +1,47 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add New Stay</title>
-</head>
-<body>
+</head> -->
+<% layout("/layouts/boilerplate") %>
+
+<div class="row">
+<div class="col-8 offset-2">
+    <br><br>
     <h3>Add Your Stay - Welcome More Guests!</h3>
+    <br><br>
     <form method="post" action="/listings">
-        <input name="title" placeholder="enter title">
-        <br/> <br/>
-        <textarea rows="5" cols="20" name="description" placeholder="enter description"></textarea>
-        <br/> <br/>
-        <input name="price" placeholder="enter price" type="number">
-        <br/> <br/>
-        <input name="location" placeholder="enter location">
-        <br/> <br/>
-        <input name="country" placeholder="enter country" >
-        <br/> <br/>
-        <input name="image" placeholder="enter image URL/Link">
-        <br/> <br/>
-        <button>Add Stay</button>
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input name="title" placeholder="E.g. Cozy Beachfront Villa" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea rows="5" cols="20" name="description" placeholder="Describe your stay: amenities, vibe, special features..." class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input name="price" placeholder="Set price per night (E.g.2200)" type="number" class="form-control">
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <label for="location" class="form-label">Location</label>
+                <input name="location" placeholder="E.g.Manhattan, New York" class="form-control">
+            </div>
+            <div class="col-md-8 mb-3">
+                <label for="country" class="form-label">Country</label>
+                <input name="country" placeholder="E.g., United States" class="form-control">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="image" class="form-label">Image</label>
+            <input name="image" placeholder="Paste image URL (e.g., https://example.com/image.jpg)" class="form-control">
+        </div>
+        <button class="add-btn">Add Stay</button>
+        <br><br>
     </form>
-</body>
-</html>
+</div>
+</div>
+<!-- </html> -->
