@@ -1,26 +1,47 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h3>Edit About Your Stay</h3>
+<body> -->
+<% layout("/layouts/boilerplate") %>
+<div class="row">
+<div class="col-8 offset-2">
+    <br/>
+    <h3>Edit Your Stay</h3>
     <form method="post" action="/listings/<%=listing.id %>?_method=PUT">
-        <input name="title" placeholder="enter title" value="<%= listing.title %>">
-        <br/> <br/>
-        <textarea name="description" placeholder="enter description"  rows="5" cols="20"><%= listing.description %></textarea>
-        <br/> <br/>
-        <input name="price" placeholder="enter price" type="number" value="<%= listing.price %>">
-        <br/> <br/>
-        <input name="location" placeholder="enter location" value="<%= listing.location %>">
-        <br/> <br/>
-        <input name="country" placeholder="enter country" value="<%= listing.country %> ">
-        <br/> <br/>
-        <input name="image" placeholder="enter image URL/Link" value=<%= listing.image.filename %>>
-        <br/> <br/>
-        <button type="submit">Add Stay</button>
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input name="title" placeholder="E.g. Cozy Beachfront Villa" value="<%= listing.title%>" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea rows="5" cols="20" name="description" placeholder="Describe your stay: amenities, vibe, special features..." class="form-control"><%= listing.description %></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input name="price" placeholder="Set price per night (E.g.2200)" type="number" value="<%= listing.price %>" class="form-control">
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <label for="location" class="form-label"  >Location</label>
+                <input name="location" placeholder="E.g.Manhattan, New York" value="<%= listing.location %>" class="form-control">
+            </div>
+            <div class="col-md-8 mb-3">
+                <label for="country" class="form-label">Country</label>
+                <input name="country" placeholder="E.g., United States" value="<%= listing.country %>" class="form-control">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="image" class="form-label">Image</label>
+            <input name="image" placeholder="Paste image URL (e.g., https://example.com/image.jpg)" value=<%= listing.image.url %> class="form-control">
+        </div>
+        <button type="submit" class="btn add-btn">Edit Stay</button>
+        <br/><br/>
     </form>
-</body>
-</html>
+</div>
+</div>
+<!-- </body>
+</html> -->
