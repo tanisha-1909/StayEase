@@ -7,7 +7,7 @@ const sampleListings = [
     country: "USA",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/white-bed-linen-with-throw-pillows-Yrxr3bsPdS0"
+      url:"https://images.unsplash.com/photo-1589911057171-44545e48c56b?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -18,7 +18,7 @@ const sampleListings = [
     country: "USA",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/a-couple-of-lawn-chairs-sitting-next-to-a-pool-iWmf9Gl3yMw"
+      url: "https://plus.unsplash.com/premium_photo-1675745329954-9639d3b74bbf?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -29,7 +29,7 @@ const sampleListings = [
     country: "USA",
     image: {
       filename: "listingimage",
-      url:"https://unsplash.com/photos/3d-render-of-luxury-hotel-lobby-and-reception-wVmIezfRjUA"
+      url:"https://plus.unsplash.com/premium_photo-1661923725782-f73c990fbddf?q=80&w=1129&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -40,7 +40,7 @@ const sampleListings = [
     country: "USA",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/coconut-palm-trees-in-hotel-lobby-_dS27XGgRyQ"
+      url: "https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -51,7 +51,7 @@ const sampleListings = [
     country: "USA",
     image: {
       filename: "listingimage",
-      url:"https://unsplash.com/photos/a-couple-of-lawn-chairs-sitting-next-to-a-pool-iWmf9Gl3yMw"
+      url:"https://plus.unsplash.com/premium_photo-1675745329804-897876b0fbf0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -62,7 +62,7 @@ const sampleListings = [
     country: "USA",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/person-in-swimming-pool-during-daytime-rlwE8f8anOc"
+      url:"https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -73,7 +73,7 @@ const sampleListings = [
     country: "Indonesia",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/photo-of-brown-bench-near-swimming-pool-Koei_7yYtIo"
+      url: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -84,7 +84,7 @@ const sampleListings = [
     country: "France",
     image: {
       filename: "listingimage",
-      url:"https://unsplash.com/photos/a-large-swimming-pool-surrounded-by-palm-trees-_pPHgeHz1uk"
+      url:"https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -96,7 +96,7 @@ const sampleListings = [
     country: "USA",
     image: {
       filename: "listingimage",
-      url:"https://unsplash.com/photos/gray-table-lamp-beside-white-bed-pillow-uocSnWMhnAs"
+      url:"https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -107,7 +107,7 @@ const sampleListings = [
     country: "Japan",
     image: {
       filename: "listingimage",
-      url:"https://unsplash.com/photos/brown-wooden-lounge-chairs-near-pool-surrounded-by-palm-trees-vmIWr0NnpCQ"
+      url:"https://images.unsplash.com/photo-1535827841776-24afc1e255ac?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -118,7 +118,7 @@ const sampleListings = [
     country: "USA",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/black-and-white-bed-near-brown-wooden-table-T5pL6ciEn-I"
+      url: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -129,7 +129,7 @@ const sampleListings = [
     country: "Maldives",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/3d-render-of-luxury-hotel-room-with-double-bed-gTA4bkiD2Xw"
+      url:"https://plus.unsplash.com/premium_photo-1661964402307-02267d1423f5?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -140,7 +140,7 @@ const sampleListings = [
     country: "UK",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/brown-wooden-lounge-chairs-on-brown-wooden-dock-during-daytime-xEaAoizNFV8"
+      url: "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -151,7 +151,7 @@ const sampleListings = [
     country: "Tanzania",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/round-white-ceramic-table-ZAVHbpOn4Jk"
+      url: "https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -162,7 +162,7 @@ const sampleListings = [
     country: "Greece",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/blue-swimming-pool-beside-white-building-bAK9wQghnHI"
+      url: "https://images.unsplash.com/photo-1545175707-9eec1209f720?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -173,7 +173,7 @@ const sampleListings = [
     country: "Canada",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/tall-building-in-the-center-of-the-city-fQM60anQ594"
+      url: "https://plus.unsplash.com/premium_photo-1661340695541-ee1ca7efedd0?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -184,7 +184,7 @@ const sampleListings = [
     country: "Netherlands",
     image: {
       filename: "listingimage",
-      url:"https://unsplash.com/photos/white-and-blue-glass-building-3k-Z6livTWE"
+      url:"https://images.unsplash.com/photo-1599722585837-c1cb8eea32ff?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -195,7 +195,7 @@ const sampleListings = [
     country: "Switzerland",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/a-large-building-with-a-fountain-in-front-of-it-o1TDUU5NNR4"
+      url: "https://plus.unsplash.com/premium_photo-1672097247893-4f8660247b1f?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -206,7 +206,7 @@ const sampleListings = [
     country: "India",
     image: {
       filename: "listingimage",
-      url:"https://unsplash.com/photos/burj-al-arab-dubai-united-arab-emirates-during-daytime-vtK31JoeAFk"
+      url:"https://images.unsplash.com/photo-1546412414-e1885259563a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   },
   {
@@ -218,7 +218,7 @@ const sampleListings = [
     country: "Finland",
     image: {
       filename: "listingimage",
-      url: "https://unsplash.com/photos/brown-concrete-building-YHXPbTj7Q9Q"
+      url: "https://images.unsplash.com/photo-1568229988520-4bc288da81f7?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   }
 ];
