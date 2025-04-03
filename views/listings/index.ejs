@@ -13,14 +13,22 @@
     <!-- <form method="get" action="/listings/stay">
         <button>Add new Stay</button>
     </form> -->
-    <% for(listing of allListings){ %>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="<%=listing.image.url %>" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    <% } %>
+    <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+      <% for(listing of allListings){ %>
+        <a href="/listings/<%=listing._id %>" class="listing-link">
+          <div class="card" >
+            <img class="card-img-top" style="height: 20rem" src="<%=listing.image.url %>" alt="Card image cap" >
+            <div class="card-img-overlay"></div>          
+            <div class="card-body">
+              <p class="card-text">
+                  <b><%= listing.title %></b> <br/>
+                  &#8377;<%= Number(listing.price).toLocaleString("en-IN") %>/night
+              </p>
+            </div>
+          </div>
+        </a>
+        <% } %>
+    </div>
 
 </body>
 <!-- </html> -->
